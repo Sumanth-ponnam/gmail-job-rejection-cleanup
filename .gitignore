@@ -1,0 +1,16 @@
+# Local system/editor files
+.DS_Store
+node_modules/
+
+# Credentials and local deployment/account configuration
+.env
+.env.*
+!.env.example
+.clasprc.json
+.clasp.json
+credentials.json
+token.json
+
+# Runtime/debug exports and potentially private mailbox screenshots
+*.log
+Screenshot*.png
